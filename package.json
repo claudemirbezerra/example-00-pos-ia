@@ -1,0 +1,24 @@
+{
+  "name": "example-00",
+  "version": "1.0.0",
+  "description": "Projeto para testes com TensorFlow.js no Node.js 22",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --no-warnings --watch src/index.js",
+    "test": "node src/examples/basic-example.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "keywords": [
+    "tensorflow",
+    "machine-learning",
+    "ai"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^4.22.0"
+  }
+}
